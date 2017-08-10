@@ -1,75 +1,3 @@
-html {
-  font-size: 16px;
-}
-
-body {
-  font-family: "Lora", serif;
-
-  color: #171717;
-}
-
-.header {
-  display: flex;
-
-  padding-top: 1em;
-  padding-bottom: 1em;
-
-  border-bottom: 1px solid #c6c6c6;
-
-  align-items: center;
-  justify-content: center;
-}
-
-@media only screen and (min-width: 48rem) {
-  .header {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-  }
-}
-
-.logo {
-  font-weight: 700;
-  line-height: 0.625rem;
-
-  text-align: center;
-  text-decoration: none;
-
-  color: #171717;
-}
-
-.logo__image {
-  width: 138px;
-  height: 10px;
-
-  vertical-align: top;
-}
-
-.page-content {
-  padding-top: 1rem;
-  padding-bottom: 3.5rem;
-}
-
-@media only screen and (min-width: 48rem) {
-  .page-content {
-    padding-top: 1.5rem;
-    padding-bottom: 4rem;
-  }
-}
-
-.product-detail {
-  margin-bottom: 3rem;
-}
-
-.product-detail:last-child {
-  margin-bottom: 0;
-}
-
-@media only screen and (min-width: 48rem) {
-  .product-detail {
-    margin-bottom: 0;
-  }
-}
-
 .product-title {
   font-size: 1.25rem;
   font-weight: 400;
@@ -429,24 +357,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.recommend {
-  margin-bottom: 1rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-@media only screen and (min-width: 48rem) {
-  .recommend {
-    margin-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.recommend:last-child {
-  margin-bottom: 0;
-}
-
 .recommend__title {
   font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
@@ -512,17 +422,6 @@ body {
   color: #999999;
 }
 
-.sections-list {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-@media only screen and (min-width: 48rem) {
-  .sections-list {
-    display: none;
-  }
-}
-
 .sections-list__title {
   font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
@@ -551,21 +450,6 @@ body {
   text-decoration: none;
 
   color: #171717;
-}
-
-.footer {
-  padding: 1.5rem 0.5rem 2rem;
-
-  background-color: #f3f3f3;
-}
-
-@media only screen and (min-width: 48rem) {
-  .footer {
-    padding-top: 2em;
-    padding-right: 0;
-    padding-bottom: 1.5rem;
-    padding-left: 0;
-  }
 }
 
 .footer-menu {
