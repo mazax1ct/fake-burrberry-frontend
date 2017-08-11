@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const DetailCard = styled.div`
+const Detail = styled.div`
   margin-bottom: 3rem;
 
   @media only screen and (min-width: 48rem) {
@@ -15,7 +15,7 @@ const DetailCard = styled.div`
 
 export default () =>
 (
-  <DetailCard>
+  <Detail>
     <h1 className="product-title">Long Cotton Gabardine Car Coat</h1>
     <div className="row">
       <div className="col-xs-12 col-md-7">
@@ -103,5 +103,5 @@ export default () =>
         </div>
       </div>
     </div>
-  </DetailCard>
+  </Detail>
 );
